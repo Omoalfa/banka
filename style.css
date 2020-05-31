@@ -76,3 +76,12 @@ form.sign > button:hover {
 	border: 2px blue solid;
 	color: blue;
 }
+.forWindows {
+	padding: 4%;
+	color: #2d1f5c;
+	font-weight: 700;
+	font-size: 3em;
+}
+.forWindows > h1, .forWindows > h2, .forWindows > h3, .forWindows > h4 {
+	margin: 10px;
+}
