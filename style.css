@@ -1,4 +1,4 @@
-body {
+#home-body {
 	background-image: url(banka.jpg);
 	background-size: cover;
 	box-sizing: border-box;
@@ -84,4 +84,56 @@ form.sign > button:hover {
 }
 .forWindows > h1, .forWindows > h2, .forWindows > h3, .forWindows > h4 {
 	margin: 10px;
+}
+/***************************************
+STYLE THE DASHBOARD
+**************************************/
+.body {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+.left-section {
+	padding: 2% 3%;
+	width: 85%;
+	border-right: 3px solid black;
+}
+div#account-info {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+#profile-img {
+	width: 100%;
+	height: 100%;
+/*	border-radius: 70px;*/
+	border: blue solid 2px;
+}
+.left-section > table {
+	width: 100%;
+}
+table.dashboard > thead {
+	background-color: blue;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 10px;
+}
+tbody > tr:nth-child(odd) {
+	background-color: lightblue;
+	color: grey;
+	border: 1px blue solid;
+	border-collapse: collapse;
+	font-size: 1.2em;
+	padding: 10px;
+}
+tbody > tr:nth-child(even) {
+	background-color: grey;
+	color: lightblue;
+	border: 1px blue solid;
+	border-collapse: collapse;
+	font-size: 1.2em;
+	padding: 10px;
+}
+td {
+	padding: 10px;
 }

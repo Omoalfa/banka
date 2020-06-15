@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Dashboard</title>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="header">
@@ -10,8 +12,112 @@
 			<p>bank at your own convinience</p>	
 		</header>
 		<nav>
-			<p>Accont profile <img src=""><i class="fas fa-angle-down"></i></p>
+			<ul class="nav">
+				<li class="nav-item">About Us</li>
+				<li class="nav-item">Contacts</li>
+				<li class="nav-item signup">Sign Up</li>
+			</ul>
 		</nav>
+	</div>
+	<div class="body">
+		<div class="left-section">
+			<div id="account-info">
+				<img src="mee.jpg" id="profile-img">
+				<table id="account-table" class="dashboard">
+					<thead>
+						<tr>
+							<td colspan="2">Account Information</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Account Name:</td>
+							<td>AbdulQuadri Olayinka</td>
+						</tr>
+						<tr>
+							<td>Account Number:</td>
+							<td>1002983097</td>
+						</tr>
+						<tr>
+							<td>Account Status:</td>
+							<td>Active <i class="fas fa-button"></i></td>
+						</tr>
+						<tr>
+							<td>Account Manager:</td>
+							<td><a href="mailto: manager1@banka.com.ng">manager1@banka.com.ng</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div><br>
+			<table id="personal-info" class="dashboard">
+				<thead>
+					<td colspan="2">Personal Information</td>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Name:</td>
+						<td>Sanni AbdulQuadri Olayinka</td>
+					</tr>
+					<tr>
+						<td>Home Address:</td>
+						<td>1, Ogunfehintimi Street, Itire, Surulere, Lagos-state.</td>
+					</tr>
+					<tr>
+						<td>gender:</td>
+						<td>Male</td>
+					</tr>
+					<tr>
+						<td>Occupation</td>
+						<td>Student</td>
+					</tr>
+					<tr>
+						<td>Marital Status:</td>
+						<td>Single</td>
+					</tr>
+					<tr>
+						<td>Phone Number:</td>
+						<td>09078862962</td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><a href="mailto: engr.omoalfa@gmail.com">engr.omoalfa@gmail.com</a></td>
+					</tr>
+				</tbody>
+			</table>
+			<table id="next-of-kin" class="dashboard">
+				<thead>
+					<td colspan="2">Next of Kin</td>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Name:</td>
+						<td>Nurudeen Sanni</td>
+					</tr>
+					<tr>
+						<td>Gender:</td>
+						<td>Male</td>
+					</tr>
+					<tr>
+						<td>Relationship:</td>
+						<td>Brother</td>
+					</tr>
+					<tr>
+						<td>Phone Number:</td>
+						<td>08026169156</td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><a href="mailto: nuru4real@gmail.com">nuru4real@gmail.com</a></td>
+					</tr>
+				</tbody>
+			</table>
+			<button>Edit Profile</button>
+			<button>Cease Account</button>
+			<button>Delete Account</button>
+		</div>
+		<div class="right-section">
+			
+		</div>
 	</div>
 	
 </body>
