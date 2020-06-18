@@ -49,6 +49,11 @@
 					</tbody>
 				</table>
 			</div><br>
+			<center>
+				<h3>BALANCE:</h3>
+				<h1><i class="fa fas-naira"></i>45,000</h1>
+			</center>
+				
 			<table id="personal-info" class="dashboard">
 				<thead>
 					<td colspan="2">Personal Information</td>
@@ -111,12 +116,67 @@
 					</tr>
 				</tbody>
 			</table>
-			<button>Edit Profile</button>
-			<button>Cease Account</button>
-			<button>Delete Account</button>
+			<div class="dashboard action-buttons">
+				<button>Edit Profile</button>
+				<button>Cease Account</button>
+				<button>Delete Account</button>
+			</div>	
 		</div>
 		<div class="right-section">
-			
+			<table id="trans-history" class="dashboard">
+				<thead>
+					<td>Transaction History</td>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<form>
+								<input type="text" name="amount" class="dashboard" placeholder="search by amount">
+								<input type="text" name="remark" class="dashboard" placeholder="search by remark">
+								<input type="date" name="start-date" class="dashboard">
+								<input type="date" name="end-date" class="dashboard">
+								<button type="submit" class="dashboard">Search Transactions</button>
+							</form>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Debit: N3000</h4>
+							<p>Transfer to OdunAyo Aisha <br>ref no: 37493274927<br><span class="date">Monday, June 15, 2020</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Debit: N3000</h4>
+							<p>Bill payment (EKEDC) <br>ref no: 37493274927<br><span class="date">Saturday, June 13, 2020</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Debit: N34000</h4>
+							<p>Withdrawal <br>ref no: 374932744477<br><span class="date">Friday, June 12, 2020</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Credit: N5000</h4>
+							<p>Deposit by Ajogbe Saheed <br>ref no: 476597639568<br><span class="date">Monday, June 8, 2020</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Credit: N3000</h4>
+							<p>Own Deposit <br>ref no: 234575793087<br><span class="date">Sunday, June 7, 2020</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>Debit: N1000</h4>
+							<p>Transfer to OdunAyo Aisha <br>ref no: 456430676305<br><span class="date">Friday, June 5, 2020</span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
 	
