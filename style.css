@@ -233,3 +233,38 @@ Style the Account Creation Form
 button.create {
 	padding: 10px;
 }
+/************************************&*&*&*&***************************
+Style the Staff page
+****************************&*&*&*&**********************************/
+#staff-acc {
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+}
+#staff-action {
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+}
+.debit-user > h2 {
+	text-align: center;
+	color: blue;
+	margin-top: 3%;
+	text-decoration: underline;
+}
+.debit-user > form {
+	margin: 10%;
+	text-align: center;
+}
+.debit-user form > input {
+	width: 75%;
+	padding: 5px;
+	border: 2px blue solid;
+	font-size: 1em;
+}
+.debit-user form > button {
+	padding: 5px 10px;
+	border: 2px blue solid;
+	color: white;
+	background-color: blue;
+	font-size: 1em;
+	font-weight: bold;
+}
